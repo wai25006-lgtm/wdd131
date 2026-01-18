@@ -3,7 +3,7 @@ body {
 }
 
 #content {
-    max-width: 60%;
+    max-width: 40%;
     border: 1px solid darkgrey;
     margin: 40px auto;
     padding: 50px;
@@ -11,16 +11,21 @@ body {
 
 h6 {
     color: #0483d8;
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 500px;
+    border-top: 0.5px solid lightgray;
+    margin: 0 auto;
 }
 
 p {
     font-size: 1.3en;
 }
 
-hr {
-    height: 3px;
-    width: 80%;
-    margin-top: 50px;
+#italic {
+    font-style: italic;
 }
 
 h1, h6 {
@@ -41,4 +46,13 @@ img {
 
 .list {
     list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+select {
+    margin: 60px 80px;
+    height: 35px;
 }
