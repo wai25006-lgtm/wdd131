@@ -78,5 +78,10 @@ footer {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    header,
+    main,
+    footer {
+        background-color: rgb(255, 206, 142);
+    }
 }
           
