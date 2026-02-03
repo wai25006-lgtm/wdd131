@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header,
 main,
 footer {
@@ -23,12 +24,14 @@ main {
 h1 {
     text-align: center;
 }
+
 section {
   padding: 20px;
   background-color: white;
   margin: 1em;
   border: 1px solid #ccc;
 }
+
 nav a {
     padding: 20px;
     color: black;
@@ -46,11 +49,13 @@ nav a:hover {
     text-decoration: none;
     color: #616061;
 }
+
 .menu-btn {
     cursor: pointer;
     border: none;
     background-color: transparent;
 }
+
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 4px;
@@ -71,7 +76,6 @@ nav a:hover {
 footer {
     text-align: center;
 }
-
 
 @media screen and (min-width: 700px) {
     main {
