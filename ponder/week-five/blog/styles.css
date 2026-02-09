@@ -1,9 +1,65 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 25px;
     line-height: 1.6;
 }
 header, footer {
+    border-bottom: 2px solid #e6b07e;
     text-align: center;
+}
+header {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px solid #e6b07e;
+    color: #252525;
+}
+h2 {
+    color: #a5132c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+.main-nav li {
+    padding: 8px;
+}
+.main-nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a5132c;
+    text-decoration: none;
+}
+main {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.info {
+    border-top: 2px solid #e6b07e;
+}
+.info p {
+    text-align: right;
+}
+.book-review img {
+    margin: 0 auto;
+}
+footer {
+    border-top: 2px solid #e6b07e;
+    text-align: center;
+}
+@media (min-width: 700px) {
+    .info p {
+        text-align: left;
+    }
+    .book-review {
+        text-align: right;
+        
+    }
 }
