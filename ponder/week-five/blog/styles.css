@@ -36,7 +36,7 @@ h2 {
 }
 main {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     max-width: 900px;
     margin: 0 auto;
@@ -61,5 +61,8 @@ footer {
     .book-review {
         text-align: right;
         
+    }
+    main {
+        grid-template-columns: 1fr 2fr;
     }
 }
