@@ -41,6 +41,22 @@ main {
     max-width: 900px;
     margin: 0 auto;
 }
+#book-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.book {
+    border: 1px solid #e6b07e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #fffaf0;
+}
+.book img {
+    
+}
 .info {
     border-top: 2px solid #e6b07e;
 }

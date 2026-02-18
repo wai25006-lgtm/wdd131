@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="blog.js"defer></script>
 </head>
 <body>
     <header>
     <h1>Kids Read For Fun</h1>
-        <nav>
+        <nav aria-label="main menu">
             <ul class="main-nav">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Archive</a></li>
@@ -17,17 +18,8 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="info">
-            <p>July 5, 2022</p>
-            <p>10-14</p>
-            <p>Fantasy</p>
-            <p><strong>Rating:</strong> <span aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</span></p>
-        </section>
-        <section class="book-review">
-            <h2>Septimus Heap Book One: Magyk</h2>
-            <img src="Magkycover2.jpg" alt="Cover of Magyk">
-            <p>If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.</p>
+    <main id="main-content" role="main">
+        <section id="book-list" aria-label="Book Reviews">
         </section>
     </main>
     <footer>
