@@ -18,6 +18,7 @@ const character = {
 
     levelUp() {
         this.level += 1;
+        this.health += 20;
         updateCard();
     }
 };

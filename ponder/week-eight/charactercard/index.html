@@ -28,17 +28,17 @@
 </head>
 <body>
     <div class="card">
-        <img src="images/snortleblat.webp" alt="Swamp Beast Diplomat">
+        <img class="image" src="images/snortleblat.webp" alt="Swamp Beast Diplomat">
 
-        <h2>Swamp Beast Diplomat</h2>
-        <p>Class: Monster</p>
-        <p>Level: <span id="health">100</span></p>
-        <p>Health: <span id="health">100</span></p>
+        <h1 class="name">Snortleblat</h1>
+        <section class="stats">
+            <p>Class: Swamp Beast Diplomat</p>
+            <p>Level: <span id="level">100</span></p>
+            <p>Health: <span id="health">100</span></p>
+        </section>
 
-        <button onclick="character.attacked()">Attack</button>
-        <button onclick="character.levelUp()">Level Up</button>
+        <button class="buttons" onclick="character.attacked()">Attack</button>
+        <button class="buttons" onclick="character.levelUp()">Level Up</button>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
