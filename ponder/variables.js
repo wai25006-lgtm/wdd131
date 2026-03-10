@@ -22,3 +22,11 @@ if (true) {
 console.log(course); //works fine, course is global
 //console.log(student); //does not work, can't access a block variable outside the block
                                           
+
+//random number 0-9
+//let randomNum = <ath.floor(Math.random()* 10);
+//console.log(randumNum)
+
+//die
+//diceRoll1 = Math.ceil(Math.random() * 5);
+//diceRoll2 = Math.floor(Math.random() * 6 + 1);
