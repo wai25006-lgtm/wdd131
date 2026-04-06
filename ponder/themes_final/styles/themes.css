@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    background-color: #00043d;
 }
 
 nav a {
@@ -40,6 +41,10 @@ main {
     padding: 20px;
     border-radius: 12px;
     margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 h1 {
@@ -48,6 +53,13 @@ h1 {
 
 p {
     line-height: 1.5;
+}
+
+#month_image {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
 button {

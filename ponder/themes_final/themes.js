@@ -8,7 +8,8 @@ const months = [
         colors: "Gray, Light Blue, White",
         symbols: "Snowflake, Snowmen",
         font: "Playfair Display",
-        font_style: "'Playfair Display', arial"
+        font_style: "'Playfair Display', arial",
+        month_image: "images/January.jpg"
 
     },
     {
@@ -20,7 +21,8 @@ const months = [
         colors: "Red, Warm white, pink/magenta, purple",
         symbols: "Hearts, roses and tulips, chocolate",
         font: "Courgette",
-        font_style: "'Courgette', times new roman"
+        font_style: "'Courgette', times new roman",
+        month_image: "images/February.jpg"
     },
     {
         name: "March",
@@ -31,7 +33,8 @@ const months = [
         colors: "Green, golden yellow",
         symbols: "Four-leaf clover/shamrock, gold coins, rainbows",
         font: "Quicksand",
-        font_style: "'Quicksand', arial"
+        font_style: "'Quicksand', arial",
+        month_image: "images/March.jpg"
     },
     {
         name: "April",
@@ -42,18 +45,20 @@ const months = [
         colors: "Dark Blue",
         symbols: "Raindrops, dark clouds",
         font: "Abril Fatface",
-        font_style: "'Abril Fatface', times new roman"
+        font_style: "'Abril Fatface', times new roman",
+        month_image: "images/April.jpg"
     },
     {
         name: "May",
-        background: "#ff9eec",
-        nav_color: "#ff388b",
-        text_color: "#ad034a",
+        background: "#ffcbf5",
+        nav_color: "#ff7795",
+        text_color: "#e0005e",
         description: "May is definitely sunny and warm (not too warm, though, just perfect). There is just a slight breeze that moves the flowers ever so slightly. You can hear people talking, but not like it's crowded. You can just hear people having a good time. Normal sounds that I feel like you could maybe hear outside a beautiful little cafe in a happy little city. There would be little pink petals floating through the air. It’s bright and airy compared to the dark and heavy April.",
         colors: "Light pink, white",
         symbols: "Cherry blossoms, flowers",
         font: "Caveat",
-        font_style: "'Caveat', arial"
+        font_style: "'Caveat', arial",
+        month_image: "images/May.jpg"
     },
     {
         name: "June",
@@ -64,7 +69,8 @@ const months = [
         colors: "Orange, yellow",
         symbols: "The sun",
         font: "Unbounded",
-        font_style: "'Unbounded', arial"
+        font_style: "'Unbounded', arial",
+        month_image: "images/June.jpg"
     },
     {
         name: "July",
@@ -75,7 +81,8 @@ const months = [
         colors: "Red, white, blue",
         symbols: "Fireworks",
         font: "Satisfy",
-        font_style: "'Satisfy', times new roman"
+        font_style: "'Satisfy', times new roman",
+        month_image: "images/July.jpg"
     },
     {
         name: "August",
@@ -86,7 +93,8 @@ const months = [
         colors: "Yellow",
         symbols: "Lemons, brown bears",
         font: "Special Elite",
-        font_style: "'Special Elite', times new roman"
+        font_style: "'Special Elite', times new roman",
+        month_image: "images/August.jpg"
     },
     {
         name: "September",
@@ -97,7 +105,8 @@ const months = [
         colors: "Brown, muted red, dark orange",
         symbols: "Leaves, apples",
         font: "Arvo",
-        font_style: "'Arvo', arial"
+        font_style: "'Arvo', arial",
+        month_image: "images/September.jpg"
     }, 
     {
         name: "October",
@@ -108,7 +117,8 @@ const months = [
         colors: "Black, orange, lime green, purple",
         symbols: "Monsters and ghouls, candy, jack-o-lanters",
         font: "Creepster",
-        font_style: "'Creepster', arial"
+        font_style: "'Creepster', arial",
+        month_image: "images/October.jpg"
     },
     {
         name: "November",
@@ -119,7 +129,8 @@ const months = [
         colors: "Brown, sage green, orange",
         symbols: "Pie, turkey",
         font: "Kaushan Script",
-        font_style: "'Kaushan Script', times new roman"
+        font_style: "'Kaushan Script', times new roman",
+        month_image: "images/November.jpg"
     },
     {
         name: "December",
@@ -130,7 +141,8 @@ const months = [
         colors: "Red, green, white, yellow",
         symbols: "Baby Jesus, presents, santa, christmas trees",
         font: "Cinzel",
-        font_style: "'Cinzel', times new roman"
+        font_style: "'Cinzel', times new roman",
+        month_image: "images/December.jpg"
     }
 ]
 
@@ -154,6 +166,8 @@ function showMonth() {
     document.body.style.backgroundColor = month.background;
     document.body.style.color = month.text_color;
     document.body.style.fontFamily = month.font_style;
+    document.getElementById("month_image").src = month.month_image;
+    document.getElementById("month_image").alt = month.month_image + "Month theme image";
 }
 
 function nextMonth() {
